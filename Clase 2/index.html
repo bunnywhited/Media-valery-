@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div  id="container" >
+    <div id="container">
 
         <h1> portafolio de pinturas famosas </h1>
         <hr>
 
-        <div id="item"></div>
+        <div id="items"></div>
 
-         <div>
+        <template id="template-card">
 
-         </div class="tarjeta">
-         <h5 class="titulo">dancer at the bar </h5>
+            <div class="tarjeta">
 
-         <div class="cuerpo">
-
-            <img src="./imagenes/Dancer at the bar.jpg" alt="muestra">
-
-         </div>
-
-
-
+                <h5 class="titulo">  Dancer at the bar </h5>
+                    <div class="cuerpo">
+                        <img src="./imagenes/Dancer at the bar.jpg" alt="muestra">
+                       </div>
+            
+            </div>
+        </template>
     </div>
 
     <script src="./index.js" type="module"></script>
-    
+
 </body>
+
 </html>
